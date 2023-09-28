@@ -14,7 +14,7 @@
 :root {
   --font-default: 'Sora', sans-serif;
   --font-primary: 'Sora', sans-serif;
-  --font-secondary: 'Sora', sans-serif;
+  --font-secondary:'Paytone One', sans-serif;
 }
 
 /* Colors */
@@ -90,7 +90,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   left: 0;
   right: 0;
   bottom: 0;
@@ -1722,6 +1722,7 @@ section {
 @media (max-width: 575px) {
   .hero h2 {
     font-size: 30px;
+    font-family: var(--font-secondary);
   }
 }
 
@@ -1732,7 +1733,7 @@ section {
 }
 
 .hero form {
-  background: #37ff00;
+  background: #000000;
   padding: 10px;
   border-radius: 10px;
 }
@@ -1755,12 +1756,12 @@ section {
 }
 
 .hero form .btn-primary {
-  background-color: #0dff00;
+  background-color: #000000;
   padding: 15px 30px;
 }
 
 .hero form .btn-primary:hover {
-  background-color: #0dff00
+  background-color: #000000
 }
 
 .hero .stats-item {
@@ -1869,7 +1870,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(0, 55, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   line-height: 0;
 }
