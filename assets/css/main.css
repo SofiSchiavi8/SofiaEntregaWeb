@@ -21,7 +21,7 @@
 :root {
   --color-default: #000000;
   --color-primary: #FF6828;
-  --color-secondary: #000000;
+  --color-secondary: #006555;
 }
 
 /* Smooth scroll behavior */
@@ -47,7 +47,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+h1
 h2,
 h3,
 h4,
@@ -140,7 +140,7 @@ section {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
   position: absolute;
   inset: 0;
 }
@@ -153,11 +153,11 @@ section {
 }
 
 .breadcrumbs .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 .breadcrumbs nav {
-  background-color: #f3f6fc;
+  background-color: #fff;
   padding: 20px 0;
 }
 
@@ -188,7 +188,7 @@ section {
 .breadcrumbs nav ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #000000;
+  color: #fff;
   content: "/";
 }
 
@@ -216,7 +216,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(13, 66, 255, 0.8);
+  background: rgba(0, 0, 0, 0.238);
   color: #fff;
 }
 
