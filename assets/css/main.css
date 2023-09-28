@@ -140,7 +140,8 @@ section {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-image: "image(assets/img/.page-header.png)" center;
+  background-image: url("assets/img/page-header.png");
+  background-position: center;
   position: absolute;
   inset: 0;
 }
@@ -153,7 +154,7 @@ section {
 }
 
 .breadcrumbs .page-header p {
-  color: #fff;
+  color: #000000;
 }
 
 .breadcrumbs nav {
