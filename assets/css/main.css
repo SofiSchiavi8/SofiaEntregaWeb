@@ -636,7 +636,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #001f8d;
+  color: #006454;
 }
 
 .about .content ul {
@@ -653,7 +653,7 @@ section {
 .about .content ul i {
   flex-shrink: 0;
   font-size: 48px;
-  color: var(--color-primary);
+  color: var(--color-defaulty);
   margin-right: 20px;
   line-height: 0;
 }
@@ -661,7 +661,7 @@ section {
 .about .content ul h5 {
   font-size: 18px;
   font-weight: 700;
-  color: #19335c;
+  color: var(--color-default);
 }
 
 .about .content ul p {
@@ -675,7 +675,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(13, 66, 255, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(255, 255, 255, 0) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -696,10 +696,10 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(13, 66, 255, 0.7);
+  border: 5px solid rgba(255, 255, 255, 0);
   top: -15%;
   left: -15%;
-  background: rgba(198, 16, 0, 0);
+  background: rgba(255, 255, 255, 0);
 }
 
 .about .play-btn:after {
@@ -712,7 +712,7 @@ section {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #ffffff00;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
@@ -728,7 +728,7 @@ section {
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #ffffff00;
   z-index: 200;
   animation: none;
   border-radius: 0;
@@ -805,7 +805,7 @@ section {
 --------------------------------------------------------------*/
 .call-to-action {
   background: url("../img/marcas.png") center;
-  background-size: cover;
+  background-size: 100% auto;
   padding: 100px 0px;
 }
 
