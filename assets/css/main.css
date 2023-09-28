@@ -635,7 +635,11 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
+<<<<<<< HEAD
   font-family: var(--font-secondary);
+=======
+  font-family: 'Boogaloo';
+>>>>>>> parent of c7cadd0 (Revert "cambio tipografia en titulo seccion 3")
   color: #006454;
 }
 
@@ -696,10 +700,10 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 255, 255, 0);
+  border: 5px solid #ffffff;
   top: -15%;
   left: -15%;
-  background: rgba(255, 255, 255, 0);
+  background: rgb(255, 255, 255);
 }
 
 .about .play-btn:after {
@@ -712,7 +716,7 @@ section {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #ffffff00;
+  border-left: 15px solid #ffffff;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
@@ -728,7 +732,7 @@ section {
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #ffffff00;
+  border-left: 15px solid #ffffff;
   z-index: 200;
   animation: none;
   border-radius: 0;
@@ -755,8 +759,8 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services .card {
-  border: 1px solid rgba(14, 29, 52, 0.15);
-  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  background: #ffffff;
   position: relative;
   border-radius: 0;
   height: 100%;
@@ -776,12 +780,12 @@ section {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 5px;
-  padding: 10px 30px;
+  padding: 10px 30px;s
   text-transform: uppercase;
 }
 
 .services .card a {
-  color: #001973;
+  color: #000000;
   transition: 0.3;
 }
 
@@ -792,7 +796,7 @@ section {
 .services .card p {
   padding: 0 30px;
   margin-bottom: 30px;
-  color: var(--color-secondary);
+  color: var(--color-default);
   font-size: 15px;
 }
 
@@ -864,7 +868,7 @@ section {
 .features .features-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #000000;
+  color: #FF6828;
 }
 
 .features .features-item ul {
@@ -883,7 +887,7 @@ section {
 .features .features-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: var(--color-default);
 }
 
 .features .features-item p:last-child {
@@ -941,7 +945,7 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #ffffff;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1029,7 +1033,7 @@ section {
   font-size: 18px;
   color: var(--color-default);
   text-align: left;
-  background: rgba(0, 255, 8, 0.493);
+  background: #f6e7d7d1;
   border-radius: 5px;
 }
 
@@ -1060,7 +1064,7 @@ section {
 .faq .accordion-body {
   padding: 0 30px 25px 60px;
   border: 0;
-  background: rgba(14, 29, 52, 0.03);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 5px;
 }
 
@@ -1555,7 +1559,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #FF6828;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1568,7 +1572,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #FF6828;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1576,7 +1580,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #FF6828;
   text-align: center;
   padding: 15px;
 }
@@ -1588,7 +1592,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #FF6828;
   border-top-color: #fff;
   animation: animate-loading 1s linear infinite;
 }
@@ -1612,13 +1616,13 @@ section {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #FF6828;
   transition: 0.4s;
   border-radius: 5px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(13, 66, 255, 0.8);
+  background: FF6828;
 }
 
 @keyframes animate-loading {
@@ -1712,6 +1716,7 @@ section {
 }
 
 .hero h2 {
+  font-family: 'Paytone One', sans-serif;
   margin-bottom: 20px;
   padding: 0;
   font-size: 54px;
@@ -1756,12 +1761,12 @@ section {
 }
 
 .hero form .btn-primary {
-  background-color: #000000;
+  background-color: #ffffffa1;
   padding: 15px 30px;
 }
 
 .hero form .btn-primary:hover {
-  background-color: #000000
+  background-color: #ffffff
 }
 
 .hero .stats-item {
