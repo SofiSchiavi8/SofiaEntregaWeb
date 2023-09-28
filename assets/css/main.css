@@ -1810,7 +1810,7 @@ section {
   font-size: 14px;
   background-image: url("../img/hero-bg.png");
   padding: 50px 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .footer .footer-info .logo {
@@ -1827,7 +1827,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #000000;
+  color: #ffffff;
   font-family: var(--font-primary);
 }
 
@@ -1874,7 +1874,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 12px;
   line-height: 0;
 }
@@ -1890,7 +1890,7 @@ section {
 }
 
 .footer .footer-links ul a {
-  color: #000000af;
+  color: #ffffffbc;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
