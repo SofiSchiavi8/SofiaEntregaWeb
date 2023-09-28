@@ -303,7 +303,7 @@ section {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   font-family: var(--font-primary);
 }
 
@@ -336,7 +336,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -352,7 +352,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #ffffff;
   }
 
   .navbar .get-a-quote,
@@ -367,7 +367,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #FF6828;
   }
 
   .navbar .dropdown ul {
@@ -466,7 +466,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(14, 29, 52, 0.9);
+    background: rgba(0, 0, 0, 0.6);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -481,7 +481,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.6);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -512,7 +512,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: rgba(13, 66, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
   }
 
   .navbar .dropdown ul,
@@ -522,7 +522,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #19335c;
+    border: 1px solid #ffffff;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -564,7 +564,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(14, 29, 52, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     z-index: 9996;
   }
 }
@@ -583,13 +583,13 @@ section {
 }
 
 .featured-services .service-item .icon i {
-  color: #001f8d;
+  color: #000000;
   font-size: 48px;
   transition: 0.3s;
 }
 
 .featured-services .service-item:hover .icon {
-  background: #fff;
+  background: #FF6828;
 }
 
 .featured-services .service-item:hover .icon i {
@@ -600,13 +600,13 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 20px;
-  color: var(--color-secondary);
+  color: var(--color-default);
   transition: 0.3s;
 }
 
 .featured-services .service-item .description {
   font-size: 15px;
-  color: #132848;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -626,7 +626,7 @@ section {
 .featured-services .service-item:hover .title,
 .featured-services .service-item:hover .readmore,
 .featured-services .service-item:hover .icon i {
-  color: var(--color-primary);
+  color: var(--color-default);
 }
 
 /*--------------------------------------------------------------
