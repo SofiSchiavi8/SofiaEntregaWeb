@@ -14,7 +14,7 @@
 :root {
   --font-default: 'Sora', sans-serif;
   --font-primary: 'Sora', sans-serif;
-  --font-secondary:'Paytone One', sans-serif;
+  --font-secondary:'Sora', sans-serif;
 }
 
 /* Colors */
@@ -635,12 +635,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
-<<<<<<< HEAD
   font-family: var(--font-secondary);
-=======
-  font-family: 'Boogaloo';
->>>>>>> parent of c7cadd0 (Revert "cambio tipografia en titulo seccion 3")
-  color: #006454;
+  color:#006454
 }
 
 .about .content ul {
