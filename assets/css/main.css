@@ -635,8 +635,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
-  font-family: var(--font-secondary);
-  color: #001f8d;
+  font-family: 'Boogaloo';
+  color: #006454;
 }
 
 .about .content ul {
